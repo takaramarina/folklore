@@ -1,0 +1,192 @@
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color: black;
+    //background-image: url(run.png);
+    background-repeat: repeat;
+    color: white;
+		image-rendering: pixelated;
+    background-size: 700px;
+    
+  }
+
+  h1 {
+    color: red;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 100px;
+    text-shadow: hsl(237, 77%, 81%) 8px 8px 20px;
+    margin: 30px;
+    position: relative;
+    font-style: bold;
+  }
+
+  a {
+    color: yellow;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: orange;
+  }
+
+  blockquote {
+    position: relative;
+    border: 2px inset black;
+    padding: 10px;
+    border-radius: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    color: red;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 30px;
+  }
+
+  blockquote:after {
+/*     content: "⚠️"; */
+    content: "";
+    background-image: url("diggers.png");
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: -36px;
+    left: calc(50% - 20px);
+    background-position: -110px 0px
+  }
+
+  cite {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+  }
+
+  .center {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .top-gifs {
+    width: 400px;
+    position: relative;
+    top: 30px;
+    margin: 300px auto 0 auto;
+  }
+
+  .top-gifs > img[src="banana.gif"] {
+    width: 150px;
+    position: absolute;
+    right: -80px;
+  }
+
+  .top-gifs > img[src="pooh.gif"] {
+    position: absolute;
+    left: -60px;
+    top: 44px;
+  }
+
+  .top-gifs > img[src="pikachu.gif"] {
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    z-index: -1;
+    width: 200px;
+  }
+
+  .olia-text {
+    max-width: 600px;
+    padding: 15px;
+    margin: 60px auto;
+    font-weight: bold;
+  }
+
+  .text-intro {
+    font-style: italic;
+    text-align: center;
+  }
+
+  .bg-gifs {
+    position: fixed;
+    z-index: -10;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .bg-gifs > img {
+    max-width: 100px;
+    position: absolute;
+  }
+
+</style>
+
+<div class="bg-gifs">
+	<img style="left: 15%; top: 5%;" src="truck1.gif" alt="truck gif">
+  <img style="right: 15%; top: 10%;" src="caution-blink.gif" alt="blinking barricade">
+  <img style="left: 5%; top: 15%;" src="horizontal-spin.gif" alt="under construction sign">
+  <img style="right: 15%; top: 40%;" src="worker2.gif" alt="construction worker">
+  <img style="left: 10%; top: 36%;" src="worker3.gif" alt="construction worker">
+  <img style="left: 0%; bottom: 39%;" src="dump.gif" alt="dump truck">
+
+  <img style="right: 10%; top: 30%;" src="blink.gif" alt="tiny barricade">
+  <img style="right: 5%; bottom: 31%;" src="truck2.gif" alt="truck gif">
+  <img style="left: 15%; bottom: 20%;" src="worker1.gif" alt="construction worker">
+  <img style="right: 17%; bottom: 21%;" src="vertical-spin.gif" alt="under construction sign">
+  <img style="left: 5%; bottom: 10%;" src="caution.gif" alt="caution sign">
+  <img style="right: 5%; bottom: 5%;" src="worker5.gif" alt="construction worker">
+</div>
+<img class="center" src="head-bang.gif" alt="banging head against computer sign">
+
+<h1>marina's projects</h1>
+
+<blockquote>
+	An archive of some of my pieces, annotated, random anecdotes, 
+  author's notes, how I was feeling, what I wanted
+  to convey, what didn't convey, what went right, what 
+  went wrong, what I would do again, if I would recommend
+  to a friend, sources and inspirations, medium, relative
+  time except I have no memory of anything ever so it will
+  all be vague, all randomly ordered. 
+  <cite>
+    by marina
+  </cite>
+</blockquote>
+
+<section class="olia-text">
+  <p class="text-intro">
+    an excerpt from Olia Lialina's essay <a href="http://art.teleportacia.org/observation/vernacular/" target="_blank">A Vernacular Web</a>:
+  </p>
+  <p>
+		<img src="jigen.png" alt = "drawing">hello
+  </p>
+
+  <p>
+    Step by step people were developing pages into a functioning web and it became less necessary to warn us, especially using road signs, about missing information. But they didn't disappear. Instead, "Under Construction" images changed their meaning from a warning to a promise that this page will grow. The symbol became a hybrid of excuse and invitation. It could appear on an empty or properly functional site as a sign that the project was growing and being updated. Often you could see the newer sign, "Always Under Construction."
+  </p>
+
+  <p>
+    "Always Under Construction" didn't mean the site would never work but actually the opposite. It informed users that there was somebody who was always taking care of the site so it would be interesting to return again and again.
+  </p>
+
+  <p>
+    This was a very important message because it was crucial to really insist on the idea of constant development and change but the sign was wrong. The association with broken roads and obstacles on the way didn't illustrate the idea of ongoing development. Around 1997 the sign turned into a meaningless footer and became a common joke. Even the mainstream press wrote that the web was always under construction so, after a while, people stopped putting it everywhere.
+  </p>
+</section>
+
+<blockquote cite="https://mitpress.mit.edu/blog/2001-language-new-media">
+  A new media object is not something fixed once and for all, but something that can exist in different, potentially infinite versions.
+  <cite>
+    — Lev Manovich <a href="The Language of New Media" target="_blank">The Language of New Media</a>
+  </cite>
+</blockquote>
+
+<section class="center top-gifs">
+  <img src="banana.gif" alt="dancing banana">
+  <img src="pooh.gif" alt="under construction pooh bear">
+  <img src="run.png" alt="working pikachu">
+</section>
